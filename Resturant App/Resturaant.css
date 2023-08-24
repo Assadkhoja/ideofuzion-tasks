@@ -1,0 +1,408 @@
+.oldmandiv {
+  background-image: url(./Assets/baba-background-image.webp);
+  background-image: no-repeat;
+  height: 950px;
+}
+.navbarsize {
+  width: 100%;
+}
+.navstyle {
+  background-color: transparent;
+}
+
+.donation-button {
+  background-color: #f15b43;
+  color: #fff !important;
+  height: 60px;
+  width: 200px;
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid transparent;
+  border-radius: 0px;
+}
+.donate-now {
+  background-color: #f15b43;
+  color: #fff !important;
+  height: 60px;
+  width: 200px;
+  font-size: 16px;
+  font-weight: 700;
+  border: 1px solid transparent;
+  border-radius: 0px;
+}
+.donate-now:hover {
+  background-color: transparent;
+  border: 0px;
+  color: #f15b43 !important;
+  border: 1px solid #f15b43 !important;
+}
+.ongoing-programs {
+  background-color: #8eece5;
+  color: #ffffff;
+  height: 60px;
+  width: 200px;
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid transparent;
+  border-radius: 0px;
+}
+.ongoing-programs:hover {
+  background-color: transparent;
+  border-radius: 0px;
+  border-color: #fff;
+}
+.donation-button:hover {
+  background-color: transparent;
+  border-radius: 0px;
+  border-color: #fff;
+}
+.NavButtons {
+  /* border: 1px solid red; */
+  margin-left: 50px;
+  font-weight: 500;
+}
+.helping {
+  margin: 185px 100px;
+  height: 500px;
+}
+.nav-link {
+  color: #fff !important;
+}
+.nav-link:hover {
+  color: #0dcaf07a !important;
+}
+.Navalign {
+  margin-left: 50px;
+}
+.NavButtons .nav-link {
+  margin-right: 22px;
+}
+.navbar-toggler {
+  display: none;
+}
+.Callus {
+  font-weight: 500;
+}
+.Callaction {
+  align-items: center;
+  margin: 2px 40px;
+}
+.bigtext {
+  color: #fff;
+  font-family: "jost", sans-serif;
+  font-size: 70px;
+  font-weight: 500;
+  font-weight: bold;
+}
+.smalltext {
+  color: #fff;
+  font-family: "jost", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+}
+.girlsitting {
+  height: 400px;
+}
+.vitamingirl {
+  background-color: rgba(239, 241, 228, 0.808);
+  height: 600px;
+  padding: 4% 7%;
+}
+.bi {
+  margin-right: 8px;
+}
+
+.fill-button {
+  position: absolute;
+  left: 100%;
+  top: 100%;
+  transform: translate(-50%, -50%);
+}
+
+.btnanime {
+  border: none;
+  border-radius: 0px !important;
+  height: 60px;
+  width: 200px;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background: none;
+  cursor: pointer;
+  padding: 25px 80px;
+  display: inline-block;
+  margin: 15px 30px;
+
+  letter-spacing: 1px;
+  font-weight: 700;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.btnanime {
+  border: 1px solid #f15b43;
+  font-weight: 400;
+  color: #f15b43;
+}
+.btnanime:hover {
+  color: #fff;
+}
+.btnanime::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.card-shadow:hover {
+  transform: scale(1.01);
+  transition-duration: 1s;
+  transform-origin: bottom left;
+}
+
+.donate-anime:hover {
+  /* transition: transform 10s linear; */
+  animation: rotate 2s linear;
+}
+@keyframes rotate {
+  0% {
+    transform: rotateY(0deg);
+  }
+  25% {
+    transform: rotateY(90deg);
+  }
+  50% {
+    transform: rotateY(180deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+.btnanime:after {
+  width: 0%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #f15b43;
+}
+.btnanime:hover:after,
+.btnanime:active:after {
+  width: 100%;
+}
+.btn-program {
+  align-items: center;
+  margin: 0 auto;
+}
+.upcoming {
+  color: #00e1d2;
+  font-weight: 400;
+  padding-top: 10%;
+}
+.upcoming1 {
+  color: #00e1d2;
+  font-weight: 400;
+  padding-top: 10%;
+}
+.upcoming2 {
+  color: #00e1d2;
+  font-weight: 400;
+}
+.about {
+  margin-top: 70px;
+}
+.head-vitamin {
+  padding-bottom: 10%;
+  padding-top: 5%;
+}
+.para {
+  font-size: 18px;
+  color: #777777;
+  font-weight: 400;
+  padding-bottom: 8%;
+}
+.para1 {
+  font-size: 18px;
+  color: #777777;
+  font-weight: 400;
+  padding-bottom: 2%;
+}
+.carddiv {
+  justify-content: space-between;
+  margin: 100px 0;
+}
+.dollars {
+  color: #65c9bb;
+  font-family: "Jost", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  padding-top: 10%;
+  margin-left: 10px;
+  margin-right: 40px;
+
+  font-weight: bold;
+  font-style: normal;
+}
+.goal {
+  padding-top: 10%;
+  margin-left: 15px;
+  margin-right: 60px;
+  font-style: normal;
+}
+.card-title {
+  text-decoration: rgb(26, 26, 26);
+  font-weight: 600;
+  font-size: 25px;
+  font-family: "Jost", sans-serif;
+  color: #263b5c;
+}
+h5 {
+  margin-top: 5% !important;
+  margin-bottom: 2% !important;
+}
+h5:hover {
+  color: #f15b43;
+}
+.card-text {
+  color: #777777;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 30px;
+  font-weight: 300;
+}
+.cardback {
+  background-color: #efeeee;
+}
+.pad {
+  margin-right: 200px;
+  padding-left: 5%;
+}
+.map {
+  margin-top: 50px;
+  margin-bottom: auto;
+}
+.crousel-pad {
+  border: 1px solid red;
+}
+.marginimage {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 5%;
+}
+.footer-div {
+  background-color: #263b5c;
+  justify-content: space-between !important;
+  align-items: center;
+  padding: 5% 10%;
+}
+.hr {
+  border: 1px gainsboro;
+  height: 0.8px;
+  width: 1rem;
+  fill-opacity: 10%;
+  margin: 0 20px !important;
+}
+.below-footer {
+  color: #efeeee;
+  padding: 8px 0;
+  font-size: medium;
+  justify-content: center;
+}
+.pad-footlogo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0px;
+}
+.footer-logo {
+  margin-top: 10%;
+}
+h2 {
+  color: #fff;
+  font-weight: 300;
+  font-size: 25px !important;
+  font-family: "Rubik", sans-serif;
+}
+.ul li {
+  color: #fff !important;
+  font-family: "Rubik", sans-serif;
+  margin: 5% 0;
+}
+.ul-para {
+  color: #fff !important;
+  font-family: "Rubik", sans-serif;
+}
+.orangeback {
+  background-image: url(./Assets/orangeback.webp);
+  background-attachment: fixed;
+}
+.white-help {
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  margin-top: 100px;
+}
+.ul {
+  margin-top: 20%;
+}
+.svg {
+  height: 120px;
+  width: 120px;
+}
+.svg-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 50px 120px;
+  padding-bottom: 70px;
+}
+.btw-svg {
+  padding: 0px 100px;
+}
+.pure-food {
+  font-weight: bold;
+  color: #fff;
+  font-size: 25px;
+  font-family: "Rubik", sans-serif;
+  padding: 20px 0;
+}
+.pure-des {
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+  padding: 0 20px;
+  text-align: center;
+}
+.white-head {
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+  font-size: 40px;
+  font-weight: 400 !important;
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 768px) {
+  .callus {
+    display: none !important;
+  }
+  .charitee-logo {
+    margin-left: 0px;
+  }
+  .navbar-brand {
+    border: 1px solid red;
+    /* margin: 0 auto;
+    flex: 2 !important;
+    width: 100% !important; */
+  }
+  .NavButtons {
+    /* flex-direction: column; */
+  }
+  .toggles {
+    /* flex-direction: column; */
+    margin-left: 20px !important;
+  }
+}
